@@ -20,46 +20,48 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
-                <div class="span5 about-carousel">
-                    <div id="myCarousel" class="carousel slide">
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="active item">
-                                <?php echo $this->Html->image("about_1.jpg" ); ?>
-                                <div class="carousel-caption">
-                                    <p>Donec luctus ullamcorper nulla</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <?php echo $this->Html->image("about_2.jpg" ); ?>
-                                <div class="carousel-caption">
-                                    <p>Blanditiis praesentium voluptatum</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <?php echo $this->Html->image("about_1.jpg" ); ?>
-                                <div class="carousel-caption">
-                                    <p>Honest and amazing things that bring positive results</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Carousel nav -->
-                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                            <i class="icon-angle-left"></i>
-                        </a>
-                        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                            <i class="icon-angle-right"></i>
-                        </a>
-                    </div>
-                </div>
+             <!--testimonial start-->
+             <div class="about-testimonial boxed-style about-flexslider ">
+                 <section class="slider">
+                     <div class="flexslider">
+                         <ul class="slides about-flex-slides">
+                             <li>
+                                 <div class="about-testimonial-image ">
+                                    <?php echo $this->Html->image("testimonial-img-1.jpg" ); ?>
+                                 </div>
+                                 <a class="about-testimonial-author" href="#">Ericson Reagan</a>
+                                 <span class="about-testimonial-company">ABC Realestate LLC</span>
+                                 <div class="about-testimonial-content">
+                                     <p class="about-testimonial-quote">
+                                         Pellentesque et pulvinar enim. Quisque at tempor ligula. Maecenas augue ante, euismod vitae egestas sit amet, accumsan eu nulla. Nullam tempor lectus a ligula lobortis pretium. Donec ut purus sed tortor malesuada venenatis eget eget lorem.
+                                     </p>
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="about-testimonial-image ">
+                                    <?php echo $this->Html->image("avatar2.jpg" ); ?>
+                                 </div>
+                                 <a class="about-testimonial-author" href="#">Jonathan Smith</a>
+                                 <span class="about-testimonial-company">DEF LLC</span>
+                                 <div class="about-testimonial-content">
+                                     <p class="about-testimonial-quote">
+                                         Pellentesque et pulvinar enim. Quisque at tempor ligula. Maecenas augue ante, euismod vitae egestas sit amet, accumsan eu nulla. Nullam tempor lectus a ligula lobortis pretium. Donec ut purus sed tortor malesuada venenatis eget eget lorem.
+                                     </p>
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </section>
+             </div>
+             <!--testimonial end-->
             </div>
             <div class="col-lg-7 about">
                 <h3>Conheça a Focus</h3>
                 <p>
-                    Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.
+                    Atuando a mais de 2 anos no ramo de automação, a Focus Automação vêm se destacando ao proporcionar servicos com inovação, tecnologia e qualidade.
                 </p>
                 <p>
-                    Aenean nibh ante, lacinia non tincidunt nec, lobortis ut tellus. Sed in porta diam. Suspendisse potenti. Donec luctus ullamcorper nulla. Duis nec velit odio.
+                    Nosso objetivo é superar as expectativas dos nossos clientes, contribuindo para o sucesso de cada um dos seus projetos.
                 </p>
             </div>
         </div>
@@ -87,11 +89,11 @@
         </div> -->
     </div>
 
-     <div class="gray-box">
+   <!--   <div class="gray-box">
          <div class="container">
              <div class="row">
                  <div class="col-lg-5">
-                     <!--testimonial start-->
+                     <!--testimonial start--
                      <div class="about-testimonial boxed-style about-flexslider ">
                          <section class="slider">
                              <div class="flexslider">
@@ -124,7 +126,7 @@
                              </div>
                          </section>
                      </div>
-                     <!--testimonial end-->
+                     <!--testimonial end--
                  </div>
                  <div class="col-lg-7">
                      <h3 class="skills">Nossas Competências</h3>
@@ -225,5 +227,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
     <!--container end-->

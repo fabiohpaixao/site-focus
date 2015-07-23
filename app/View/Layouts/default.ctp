@@ -1,19 +1,3 @@
-<?php
-/**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -134,7 +118,7 @@
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-lg-3 col-sm-3">
-		                <h1>contact info</h1>
+		                <h1>informações de contato</h1>
 		                <address>
 		                    <p>Endereço: R. Espanha 287 - Sala 8</p>
 		                    <p>Campinas, SP</p>
@@ -144,14 +128,14 @@
 		                </address>
 		            </div>
 		            <div class="col-lg-5 col-sm-5">
-		                <h1>latest tweet</h1>
+		                <h1>último tweet</h1>
 		                <div class="tweet-box">
 		                    <i class="icon-twitter"></i>
 		                    <em>Please follow <a href="javascript:;">@nettus</a> for all future updates of us! <a href="javascript:;">twitter.com/vectorlab</a></em>
 		                </div>
 		            </div>
 		            <div class="col-lg-3 col-sm-3 col-lg-offset-1">
-		                <h1>stay connected</h1>
+		                <h1>fique conectado</h1>
 		                <ul class="social-link-footer list-unstyled">
 		                    <li><a target="_blank" href="#"><i class="icon-facebook"></i></a></li>
 		                    <li><a target="_blank" href="#"><i class="icon-google-plus"></i></a></li>

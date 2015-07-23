@@ -8,7 +8,6 @@
                  <div class="col-lg-8 col-sm-8">
                      <ol class="breadcrumb pull-right">
                          <li><a href="#">Home</a></li>
-                         <li><a href="#">Pages</a></li>
                          <li class="active">Portfolio</li>
                      </ol>
                  </div>

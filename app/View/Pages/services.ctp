@@ -3,13 +3,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
-                    <h1>Services</h1>
+                    <h1>Serviços</h1>
                 </div>
                 <div class="col-lg-8 col-sm-8">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li class="active">Services</li>
+                        <li class="active">Serviços</li>
                     </ol>
                 </div>
             </div>
@@ -17,7 +16,7 @@
     </div>
     <!--breadcrumbs end-->
 
-    <!--container start-->
+    <!--container start
     <div class="container">
         <div class="row mbot50">
             <div class="col-lg-7 about">
@@ -32,7 +31,7 @@
             <div class="col-lg-5">
                 <div class="span5 about-carousel">
                     <div id="myCarousel" class="carousel slide">
-                        <!-- Carousel items -->
+                        <!-- Carousel items --
                         <div class="carousel-inner">
                             <div class="active item">
                                 <?php echo $this->Html->image("about_1.jpg"); ?>
@@ -53,7 +52,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Carousel nav -->
+                        <!-- Carousel nav --
                         <a class="carousel-control left" href="#myCarousel" data-slide="prev">
                             <i class="icon-angle-left"></i>
                         </a>
@@ -65,72 +64,52 @@
             </div>
         </div>
     </div>
-
+-->
       <div class="gray-box mbot50">
         <div class="container">
             <div class="row">
                 <div class="row">
                     <div class="text-center feature-head">
-                        <h1> Our Services </h1>
-                        <p>Aenean nibh ante, lacinia non tincidunt nec, lobortis ut tellus. Sed in porta diam.</p>
+                        <h1> Nossos Serviços </h1>
+                        <p>Fornecemos as melhores soluções em automação, garantindo sempre inovação, tecnologia e qualidade.</p>
                     </div>
                     <div class="services">
                         <div class="col-lg-6 col-sm-6">
                             <div class="icon-wrap ico-bg round">
-                                <i class="icon-desktop"></i>
+                                <i class="icon-gears"></i>
                             </div>
                             <div class="content">
-                                <h3 class="title">Responsive Design</h3>
-                                <p>Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</p>
+                                <h3 class="title">Automação Industrial</h3>
+                                <p>Garantimos maior produtividade, menor índice perdas e melhora na qualidade dos produtos. Através de sistemas integrados de supervisão, controle e gerenciamento de processos industriais.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="icon-wrap ico-bg round">
-                                <i class="icon-gift"></i>
+                                <i class="icon-building"></i>
                             </div>
                             <div class="content">
-                                <h3 class="title">HTML5 & CSS3</h3>
-                                <p>Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services">
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg round">
-                                <i class="icon-code"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Friendly Coding</h3>
-                                <p>Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg round">
-                                <i class="icon-book"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Well Documention</h3>
-                                <p>Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</p>
+                                <h3 class="title">Automação Predial</h3>
+                                <p>Seguindo o Conceito de Edifício Verde (Edifício Sustentável), a Focus surge como uma grande parceira no fornecimento de soluções para Automação Predial,proporcionando conforto, segurança e economia nestes empreendimentos, através da integração de diversas tecnologias.</p>
                             </div>
                         </div>
                     </div>
                     <div class="services">
                         <div class="col-lg-6 col-sm-6">
                             <div class="icon-wrap ico-bg round">
-                                <i class=" icon-bullhorn"></i>
+                                <i class="icon-database"></i>
                             </div>
                             <div class="content">
-                                <h3 class="title">Free Support</h3>
-                                <p>Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</p>
+                                <h3 class="title">Gerenciamento e Controle de Batch ISA-88</h3>
+                                <p>Os Sistemas de gerenciamento e controle Batch ISA-88 tem como principal objetivo a padronização no desenvolvimento de soluções para processos de produção por batelada, além proporcionar maior eficiência, flexibilidade, variedade e qualidade dos produtos, esses sistemas registram e fornecem relatórios das bateladas produzidas.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="icon-wrap ico-bg round">
-                                <i class=" icon-eye-open"></i>
+                                <i class="icon-bar-chart"></i>
                             </div>
                             <div class="content">
-                                <h3 class="title">Bootstrap 3</h3>
-                                <p>Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</p>
+                                <h3 class="title">Sistema de Execução de Manufatura (MES)</h3>
+                                <p>Sistemas MES possuem grande capacidade de coleta de dados produtivos de processos, máquinas e equipamentos. São ferramentas poderosas que exibem as informações do chão de fábrica em tempo real, através de relatórios gerenciais confiáveis, que são a base para a tomada de decisão em um ambiente industrial.</p>
                             </div>
                         </div>
                     </div>
