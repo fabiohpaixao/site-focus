@@ -96,7 +96,7 @@
                     <div class="services">
                         <div class="col-lg-6 col-sm-6">
                             <div class="icon-wrap ico-bg round">
-                                <i class="icon-database"></i>
+                                <i class="icon-tasks"></i>
                             </div>
                             <div class="content">
                                 <h3 class="title">Gerenciamento e Controle de Batch ISA-88</h3>

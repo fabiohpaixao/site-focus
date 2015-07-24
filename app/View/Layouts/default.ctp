@@ -96,11 +96,11 @@
 	                            <li><a href="button.html">Automação Predial</a></li>
 	                        </ul>
 	                    </li> -->
-	                    <li <?= ($page_active == 'clients' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Clientes", '/pages/clients' ); ?></li>
-	                    <li <?= ($page_active == 'cases' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Cases",  '/pages/cases'  ); ?></li>
-	                    <li <?= ($page_active == 'downloads' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Downloads",  '/pages/downloads'  ); ?></li>
+	                    <!-- <li <?= ($page_active == 'clients' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Clientes", '/pages/clients' ); ?></li> -->
+	                    <!-- <li <?= ($page_active == 'cases' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Cases",  '/pages/cases'  ); ?></li> -->
+	                    <!-- <li <?= ($page_active == 'downloads' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Downloads",  '/pages/downloads'  ); ?></li> -->
 	                    <li <?= ($page_active == 'contact' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Contato",  '/pages/contact'); ?> </li>
-	                    <li <?= ($page_active == 'work' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Trabalhe Conosco",  '/pages/work'); ?></li>
+	                    <!-- <li <?= ($page_active == 'work' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Trabalhe Conosco",  '/pages/work'); ?></li> -->
 	                    
 	                    <!-- <li><input type="text" placeholder=" Search" class="form-control search"></li> -->
 	                </ul>
@@ -132,7 +132,7 @@
 		                <div class="tweet-box">
 		                    <i class="icon-twitter"></i>
 		                    <em>
-		                    	ISA Campinas realiza evento gratuito sobre Redes Industriais em Paulínia:  <a href="http://goo.gl/hr8K7x">http://goo.gl/hr8K7x</a>
+		                    	ISA Campinas realiza evento gratuito sobre Redes Industriais em Paulínia:  <a href="http://goo.gl/hr8K7x" target="_blank">http://goo.gl/hr8K7x</a>
 		                    </em>
 		                    	
 		                </div>
