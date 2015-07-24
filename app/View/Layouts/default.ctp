@@ -131,11 +131,14 @@
 		                <h1>último tweet</h1>
 		                <div class="tweet-box">
 		                    <i class="icon-twitter"></i>
-		                    <em>Please follow <a href="javascript:;">@nettus</a> for all future updates of us! <a href="javascript:;">twitter.com/vectorlab</a></em>
+		                    <em>
+		                    	ISA Campinas realiza evento gratuito sobre Redes Industriais em Paulínia:  <a href="http://goo.gl/hr8K7x">http://goo.gl/hr8K7x</a>
+		                    </em>
+		                    	
 		                </div>
 		            </div>
 		            <div class="col-lg-3 col-sm-3 col-lg-offset-1">
-		                <h1>fique conectado</h1>
+		                <!-- <h1>fique conectado</h1>
 		                <ul class="social-link-footer list-unstyled">
 		                    <li><a target="_blank" href="#"><i class="icon-facebook"></i></a></li>
 		                    <li><a target="_blank" href="#"><i class="icon-google-plus"></i></a></li>
@@ -145,7 +148,7 @@
 		                    <li><a target="_blank" href="#"><i class="icon-skype"></i></a></li>
 		                    <li><a target="_blank" href="#"><i class="icon-github"></i></a></li>
 		                    <li><a target="_blank" href="#"><i class="icon-youtube"></i></a></li>
-		                </ul>
+		                </ul> -->
 		            </div>
 		        </div>
 		    </div>
