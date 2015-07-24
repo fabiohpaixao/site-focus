@@ -37,6 +37,8 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
+	var $components = array('Email');
+
 /**
  * Displays a view
  *
@@ -107,4 +109,20 @@ class PagesController extends AppController {
 		$this->set("page_active", $page_active);
 
 	}
+
+	public function send() {
+        if(!empty($this->data)) {
+            $this->Contact->set($this->data);
+            if($this->Contact->validates()) {
+                $this->Email->from = $this->data['Contact']['name'] . ' <' . $this->data['Contact']['email'] . '>';
+
+                $this->Email->to = 'web@dfocusautomation.com.br';
+                $this->Email->subject = 'Contato do Site';
+                $this->Email->send($this->data['Contact']['message']);
+                $this->render('contact');
+            } else {
+                $this->render('contact');
+            }
+        }
+    }
 }

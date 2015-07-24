@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-lg-5">
              <!--testimonial start-->
-             <div class="about-testimonial boxed-style about-flexslider ">
+            <!--  <div class="about-testimonial boxed-style about-flexslider ">
                  <section class="slider">
                      <div class="flexslider">
                          <ul class="slides about-flex-slides">
@@ -52,7 +52,7 @@
                          </ul>
                      </div>
                  </section>
-             </div>
+             </div> -->
              <!--testimonial end-->
             </div>
             <div class="col-lg-7 about">

@@ -47,26 +47,24 @@
             <div class="col-lg-7 col-sm-7 address">
                 <h4>Mande sua Mensagem</h4>
                 <div class="contact-form">
-                    <form role="form">
+                    <?php echo $this->Form->create('Contact', array('action' => 'send')); ?>
                         <div class="form-group">
                             <label for="name">Nome</label>
-                            <input type="text" placeholder="" id="name" class="form-control">
+                            <?php echo $this->Form->input('Contact.name', array('label' => false, 'maxlength' => 100, "class" => "form-control")); ?>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="text" placeholder="" id="email" class="form-control">
+                            <?php echo $this->Form->input('Contact.email', array('label' => false, 'maxlength' => 100, "type" => "email", "class" => "form-control")); ?>
                         </div>
                         <div class="form-group">
                             <label for="phone">Fone</label>
-                            <input type="text" id="phone" class="form-control">
+                            <?php echo $this->Form->input('Contact.phone', array('label' => false, 'maxlength' => 100, "class" => "form-control")); ?>
                         </div>
                         <div class="form-group">
                             <label for="phone">Mensagem</label>
-                            <textarea placeholder="" rows="5" class="form-control"></textarea>
+                            <?php echo $this->Form->input('Contact.message', array('label' => false, 'rows' => 5, "class" => "form-control")); ?>
                         </div>
-                        <button class="btn btn-danger" type="submit">Enviar</button>
-                    </form>
-
+                        <?php echo $this->Form->end(array("label" => "Enviar", "class" => "btn btn-danger")); ?>
                 </div>
             </div>
         </div>
