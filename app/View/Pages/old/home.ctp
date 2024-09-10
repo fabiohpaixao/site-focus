@@ -18,48 +18,44 @@
                           <?php echo $this->Html->image("banner/img_industrial1.png" ); ?>
                      </div>
 
-                     <div class="caption lfl slide_subtitle medium_text upper_text"
+                     <div class="caption lfl slide_title"
                           data-x="50"
                           data-y="220"
                           data-speed="1200"
                           data-start="2500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_industrial2.png" ); ?>
-                          Processos de fabricação
+                          <?php echo $this->Html->image("banner/img_industrial2.png" ); ?>
                     </div>
 
-                    <div class="caption lfl slide_subtitle medium_text upper_text"
+                    <div class="caption lfl slide_title"
                           data-x="120"
                           data-y="290"
                           data-speed="1200"
                           data-start="3500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_industrial3.png" ); ?>
-                          Desenvolvimento de software de PLC
+                          <?php echo $this->Html->image("banner/img_industrial3.png" ); ?>
                     </div>
 
-                    <div class="caption lfl slide_subtitle medium_text upper_text"
+                    <div class="caption lfl slide_title"
                           data-x="190"
                           data-y="360"
                           data-speed="1200"
                           data-start="4500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_industrial4.png" ); ?>
-                          Comissionamento e Start-up
+                          <?php echo $this->Html->image("banner/img_industrial4.png" ); ?>
                     </div>
 
-                    <div class="caption lfl slide_subtitle medium_text upper_text"
+                    <div class="caption lfl slide_title"
                           data-x="260"
                           data-y="430"
                           data-speed="1200"
                           data-start="5500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_industrial5.png" ); ?>
-                          Configuração de redes de campo
+                          <?php echo $this->Html->image("banner/img_industrial5.png" ); ?>
                      </div>
 
 
-                  <!--   <div class="caption lfr slide_subtitle medium_text upper_text"
+                  <!--   <div class="caption lfr slide_title"
                           data-x="680"
                           data-y="300"
                           data-speed="1200"
@@ -86,48 +82,44 @@
                           <?php echo $this->Html->image("banner/img_predial1.png" ); ?>
                      </div>
 
-                     <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                     <div class="caption lfr slide_title"
                           data-x="470"
                           data-y="90"
                           data-speed="1200"
                           data-start="2500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_predial2.png" ); ?>
-                          Controle de acesso
+                          <?php echo $this->Html->image("banner/img_predial2.png" ); ?>
                     </div>
 
-                    <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                    <div class="caption lfr slide_title"
                           data-x="540"
                           data-y="160"
                           data-speed="1200"
                           data-start="3500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_predial3.png" ); ?>
-                          Climatização (HVAC)
+                          <?php echo $this->Html->image("banner/img_predial3.png" ); ?>
                     </div>
 
-                    <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                    <div class="caption lfr slide_title"
                           data-x="610"
                           data-y="230"
                           data-speed="1200"
                           data-start="4500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_predial4.png" ); ?>
-                          Detecção e Alarme de incêndio
+                          <?php echo $this->Html->image("banner/img_predial4.png" ); ?>
                     </div>
 
-                    <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                    <div class="caption lfr slide_title"
                           data-x="680"
                           data-y="300"
                           data-speed="1200"
                           data-start="5500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_predial5.png" ); ?>
-                          Circuito fechado de TV (CFTV)
+                          <?php echo $this->Html->image("banner/img_predial5.png" ); ?>
                      </div>
 
 
-                  <!--   <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                  <!--   <div class="caption lfr slide_title"
                           data-x="680"
                           data-y="300"
                           data-speed="1200"
@@ -153,44 +145,40 @@
                           <?php echo $this->Html->image("banner/img_batch1.png" ); ?>
                      </div>
 
-                     <div class="caption lfl slide_subtitle medium_text upper_text"
+                     <div class="caption lfl slide_title"
                           data-x="50"
                           data-y="220"
                           data-speed="1200"
                           data-start="2500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_batch2.png" ); ?>
-                          Controle de Lotes
+                          <?php echo $this->Html->image("banner/img_batch2.png" ); ?>
                     </div>
 
-                    <div class="caption lfl slide_subtitle medium_text upper_text"
+                    <div class="caption lfl slide_title"
                           data-x="120"
                           data-y="290"
                           data-speed="1200"
                           data-start="3500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_batch3.png" ); ?>
-                          Relatórios de produção
+                          <?php echo $this->Html->image("banner/img_batch3.png" ); ?>
                     </div>
 
-                    <div class="caption lfl slide_subtitle medium_text upper_text"
+                    <div class="caption lfl slide_title"
                           data-x="190"
                           data-y="360"
                           data-speed="1200"
                           data-start="4500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_batch4.png" ); ?>
-                          Definição de processo (Modelamento)
+                          <?php echo $this->Html->image("banner/img_batch4.png" ); ?>
                     </div>
 
-                    <div class="caption lfl slide_subtitle medium_text upper_text"
+                    <div class="caption lfl slide_title"
                           data-x="260"
                           data-y="430"
                           data-speed="1200"
                           data-start="5500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_batch5.png" ); ?>
-                          Gerenciamento de receitas de produção
+                          <?php echo $this->Html->image("banner/img_batch5.png" ); ?>
                      </div>
 
 
@@ -220,44 +208,40 @@
                           <?php echo $this->Html->image("banner/img_mes1.png" ); ?>
                      </div>
 
-                     <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                     <div class="caption lfr slide_title"
                           data-x="470"
                           data-y="90"
                           data-speed="1200"
                           data-start="2500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_mes2.png" ); ?>
-                          Mapeamento de perdas e paradas
+                          <?php echo $this->Html->image("banner/img_mes2.png" ); ?>
                     </div>
 
-                    <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                    <div class="caption lfr slide_title"
                           data-x="540"
                           data-y="160"
                           data-speed="1200"
                           data-start="3500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_mes3.png" ); ?>
-                          Coleta de dados de chão de fábrica
+                          <?php echo $this->Html->image("banner/img_mes3.png" ); ?>
                     </div>
 
-                    <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                    <div class="caption lfr slide_title"
                           data-x="610"
                           data-y="230"
                           data-speed="1200"
                           data-start="4500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_mes4.png" ); ?>
-                          Análise de qualidade, perdas e paradas
+                          <?php echo $this->Html->image("banner/img_mes4.png" ); ?>
                     </div>
 
-                    <div class="caption lfr slide_subtitle medium_black_text upper_text"
+                    <div class="caption lfr slide_title"
                           data-x="680"
                           data-y="300"
                           data-speed="1200"
                           data-start="5500"
                           data-easing="easeOutBack">
-                          <?php //echo $this->Html->image("banner/img_mes5.png" ); ?>
-                          Relatórios (Histórico, Produção, OEE e KPI)
+                          <?php echo $this->Html->image("banner/img_mes5.png" ); ?>
                      </div>
 
 

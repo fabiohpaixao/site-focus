@@ -145,7 +145,7 @@ App::uses('ErrorHandler', 'Error');
 App::uses('Configure', 'Core');
 App::uses('CakePlugin', 'Core');
 App::uses('Cache', 'Cache');
-App::uses('Object', 'Core');
+App::uses('MyObject', 'Core');
 App::uses('Multibyte', 'I18n');
 
 App::$bootstrapping = true;

@@ -8,7 +8,7 @@
                 <div class="col-lg-8 col-sm-8">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Home</a></li>
-                        <li class="active">A iFocus</li>
+                        <li class="active">A Focus</li>
                     </ol>
                 </div>
             </div>
@@ -56,9 +56,9 @@
              <!--testimonial end-->
             </div>
             <div class="col-lg-7 about">
-                <h3>Conheça a iFocus</h3>
+                <h3>Conheça a Focus</h3>
                 <p>
-                    Atuando desde 2013 no ramo de automação, a iFocus Automação vêm se destacando ao proporcionar servicos com inovação, tecnologia e qualidade.
+                    Atuando a mais de 2 anos no ramo de automação, a Focus Automação vêm se destacando ao proporcionar servicos com inovação, tecnologia e qualidade.
                 </p>
                 <p>
                     Nosso objetivo é superar as expectativas dos nossos clientes, contribuindo para o sucesso de cada um dos seus projetos.

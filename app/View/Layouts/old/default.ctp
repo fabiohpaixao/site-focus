@@ -3,11 +3,11 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		iFocus Automação -
+		Focus Automação -
 		<?php echo $this->fetch('title'); ?>
 	</title>
 
-	<meta name="description" content="iFocus Automação, as melhores solçuões em automação industrial e predial." />
+
 
 	<?php
 		echo $this->Html->meta('icon');
@@ -78,7 +78,7 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <?php $logo = $this->Html->tag('span', $this->Html->image('logo-focus.png', array('alt' => 'iFocus Automa&ccedil;&atilde;o')), array('class' => 'logo')); ?>
+	                <?php $logo = $this->Html->tag('span', $this->Html->image('logo-focus.png', array('alt' => 'Focus Automa&ccedil;&atilde;o')), array('class' => 'logo')); ?>
 	                <?php echo $this->Html->link(__($logo), '/', array('class' => 'navbar-brand', 'escape' => false)); ?>
 	                <!-- <a class="navbar-brand" href=""><span class="logo"><?php //echo $this->Html->image('logo-focus.png', array('alt' => 'Focus Automa&ccedil;&atilde;o')); ?></span></a> -->
 	            </div>
@@ -87,17 +87,15 @@
 	                <ul class="nav navbar-nav">
 
 	                    <li <?= ($page_active == 'home' ? "class=active" : ""); ?> > <?php echo $this->Html->link('Home', '/pages/home'); ?> </li>
-	                    <li <?= ($page_active == 'about' ? "class=active" : ""); ?> > <?php echo $this->Html->link('A iFocus', '/pages/about'); ?></li>
-	                     <!--<li <?= ($page_active == 'services' ? "class=active" : ""); ?> ><?php echo $this->Html->link('Serviços', '/pages/services'); ?></li>-->
-	                    <li class="dropdown <?= ($page_active == 'services' ? "active" : ""); ?>">
-	                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Serviços <b class=" icon-angle-down"></b></a>
+	                    <li <?= ($page_active == 'about' ? "class=active" : ""); ?> > <?php echo $this->Html->link('A Focus', '/pages/about'); ?></li>
+	                    <li <?= ($page_active == 'services' ? "class=active" : ""); ?> ><?php echo $this->Html->link('Serviços', '/pages/services'); ?></li>
+	                  <!--   <li class="dropdown ">
+	                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Cases <b class=" icon-angle-down"></b></a>
 	                        <ul class="dropdown-menu">
-	                            <li><?php echo $this->Html->link('Automação Industrial', '/pages/services/industrial'); ?></li>
-	                            <li><?php echo $this->Html->link('Automação Predial', '/pages/services/predial'); ?></li>
-	                            <li><?php echo $this->Html->link('Batch ISA-88', '/pages/services/batch'); ?></li>
-	                            <li><?php echo $this->Html->link('Sistema MES', '/pages/services/mes'); ?></li>
+	                            <li><a href="typography.html">Automação Industrial</a></li>
+	                            <li><a href="button.html">Automação Predial</a></li>
 	                        </ul>
-	                    </li> 
+	                    </li> -->
 	                    <!-- <li <?= ($page_active == 'clients' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Clientes", '/pages/clients' ); ?></li> -->
 	                    <!-- <li <?= ($page_active == 'cases' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Cases",  '/pages/cases'  ); ?></li> -->
 	                    <!-- <li <?= ($page_active == 'downloads' ? "class=active" : "" ); ?> ><?php echo $this->Html->link( "Downloads",  '/pages/downloads'  ); ?></li> -->
@@ -122,11 +120,11 @@
 		            <div class="col-lg-3 col-sm-3">
 		                <h1>informações de contato</h1>
 		                <address>
-		                    <p>Endereço: Av. João Batista Leone 46</p>
-		                    <p>Itatiba, SP</p>
+		                    <p>Endereço: R. Espanha 287 - Sala 8</p>
+		                    <p>Campinas, SP</p>
 
-		                    <p>Telefone : (19) 2515-1793</p>
-		                    <p>Email : <a href="mailto:comercial@ifocusautomacao.com.br">comercial@ifocusautomacao.com.br</a></p>
+		                    <p>Telefone : (19) 2317-2222</p>
+		                    <p>Email : <a href="javascript:;">contato@focusautomation.com.br</a></p>
 		                </address>
 		            </div>
 		            <div class="col-lg-5 col-sm-5">

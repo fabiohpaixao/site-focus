@@ -17,7 +17,7 @@
  */
 
 App::uses('DataSource', 'Model/Datasource');
-App::uses('String', 'Utility');
+App::uses('StringCake', 'Utility');
 App::uses('View', 'View');
 
 /**
@@ -2515,7 +2515,7 @@ class DboSource extends DataSource {
 		if ($allFields) {
 			$fields = array_keys($Model->schema());
 		} elseif (!is_array($fields)) {
-			$fields = String::tokenize($fields);
+			$fields = StringCake::tokenize($fields);
 		}
 		$fields = array_values(array_filter($fields));
 		$allFields = $allFields || in_array('*', $fields) || in_array($Model->alias . '.*', $fields);
@@ -2815,7 +2815,7 @@ class DboSource extends DataSource {
 		}
 
 		if ($bound) {
-			return String::insert($key . ' ' . trim($operator), $value);
+			return StringCake::insert($key . ' ' . trim($operator), $value);
 		}
 
 		if (!preg_match($operatorMatch, trim($operator))) {

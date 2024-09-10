@@ -132,7 +132,7 @@ class RequestActionController extends Controller {
  *
  * @package       Cake.Test.Case.Core
  */
-class TestObject extends Object {
+class TestObject extends MyObject {
 
 /**
  * firstName property

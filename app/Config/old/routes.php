@@ -31,15 +31,6 @@
 	//Router::connect('/pages/*', array('controller' => 'pages'));
 	
 	Router::connect('/pages/about', array('controller' => 'pages', 'action' => 'about'));
-	//Router::connect('/pages/services/service', array('controller' => 'pages', 'action' => 'services', 'service' => 'slug'));
-
-
-	Router::connect(
-        '/pages/services/:service', 
-        array('controller' => 'pages', 'action' => 'services'),
-        array('pass' => array('service'))
-    );
-
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on
@@ -52,5 +43,3 @@
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
-
-		

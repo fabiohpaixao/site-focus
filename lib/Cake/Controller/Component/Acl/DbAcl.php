@@ -37,7 +37,7 @@ App::uses('ClassRegistry', 'Utility');
  *
  * @package       Cake.Controller.Component.Acl
  */
-class DbAcl extends Object implements AclInterface {
+class DbAcl extends MyObject implements AclInterface {
 
 /**
  * Constructor

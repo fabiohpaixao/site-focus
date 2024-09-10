@@ -26,7 +26,7 @@ App::uses('File', 'Utility');
  *
  * @package       Cake.Model
  */
-class CakeSchema extends Object {
+class CakeSchema extends MyObject {
 
 /**
  * Name of the schema.

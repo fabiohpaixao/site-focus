@@ -67,11 +67,6 @@ class PagesController extends AppController {
 		$page_active = "services";
 
 		$this->set("page_active", $page_active);
-		
-		$service = $this->request->params['service'];
-
-		if(strlen($service) >= 1)
-			$this->set("service", $service);
 
 	}
 
@@ -145,7 +140,7 @@ class PagesController extends AppController {
             $this->redirect(array('action' => 'contact'));
 
 
-   				// $Email = new CakeEmail('smtp');
+    //             $Email = new CakeEmail('smtp');
 				// $Email->to('destinatario@email.com.br');
 				// $Email->subject('Assunto');
 				// $Email->send('Mensagem');

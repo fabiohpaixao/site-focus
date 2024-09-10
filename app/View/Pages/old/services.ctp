@@ -65,7 +65,6 @@
         </div>
     </div>
 -->
-    <?php if(is_null($service) || strlen($service) < 1): ?>
       <div class="gray-box mbot50">
         <div class="container">
             <div class="row">
@@ -90,7 +89,7 @@
                             </div>
                             <div class="content">
                                 <h3 class="title">Automação Predial</h3>
-                                <p>Seguindo o Conceito de Edifício Verde (Edifício Sustentável), a iFocus surge como uma grande parceira no fornecimento de soluções para Automação Predial,proporcionando conforto, segurança e economia nestes empreendimentos, através da integração de diversas tecnologias.</p>
+                                <p>Seguindo o Conceito de Edifício Verde (Edifício Sustentável), a Focus surge como uma grande parceira no fornecimento de soluções para Automação Predial,proporcionando conforto, segurança e economia nestes empreendimentos, através da integração de diversas tecnologias.</p>
                             </div>
                         </div>
                     </div>
@@ -119,133 +118,6 @@
         </div>
      </div>
  
-    <?php endif; ?>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-            
-            <?php if($service == 'industrial'): ?>
-            
-                <div class="service">
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="row">
-                                <div class="icon-wrap ico-bg round">
-                                    <i class="icon-gears"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Automa&ccedil;&atilde;o Industrial</h3>
-                                <p>A iFocus oferece as melhores solu&ccedil;&otilde;es em Automa&ccedil;&atilde;o Industrial.</p>
-                                <p>Garantimos:Maior produtividade, menor &iacute;ndice perdas e melhora na qualidade dos produtos. Atrav&eacute;s de sistemas integrados de supervis&atilde;o, controle e gerenciamento de processos industriais.</p>
-                                <p>Contamos com uma equipe altamente capacitada nas seguintes &aacute;reas:</p>
-                                <ul>
-                                    <li>Processos de Fabrica&ccedil;&atilde;o</li>
-                                    <li>Linhas de Produ&ccedil;&atilde;o</li>
-                                    <li>Maquinas e Equipamentos</li>
-                                    <li>Utilidades</li>
-                                    <li>CIP (Clean-In-Place) &ndash; Limpeza Autom&aacute;tica de Processos e Linhas de Produ&ccedil;&atilde;o</li>
-                                    <li>Desenvolvimento de Software de PLC, Aplicativos de Supervis&oacute;rio e IHM</li>
-                                    <li>Configura&ccedil;&atilde;o de Redes de campo</li>
-                                    <li>Banco de Dados</li>
-                                    <li>Teste de Aceita&ccedil;&atilde;o em Fabrica (TAF)</li>
-                                    <li>Comissionamento e Start-up</li>
-                                    <li>Treinamento e Assist&ecirc;ncia T&eacute;cnica</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-             <?php endif; ?>
-
-            <?php if($service == 'predial'): ?>
-            
-                <div class="service">
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="row">
-                                <div class="icon-wrap ico-bg round">
-                                    <i class="icon-building"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Automa&ccedil;&atilde;o Predial</h3>
-                                <p>Seguindo o Conceito de Edif&iacute;cio Verde (Edif&iacute;cio Sustent&aacute;vel), a iFocus surge como uma grande parceira no fornecimento de solu&ccedil;&otilde;es para Automa&ccedil;&atilde;o Predial, proporcionando conforto, seguran&ccedil;a e economia nestes empreendimentos, atrav&eacute;s da integra&ccedil;&atilde;o de todas as tecnologias prediais como:</p>
-                                <ul>
-                                    <li>Gerenciamento de Energia El&eacute;trica</li>
-                                    <li>Utilidades</li>
-                                    <li>Climatiza&ccedil;&atilde;o (HVAC)</li>
-                                    <li>Detec&ccedil;&atilde;o e Alarme de Inc&ecirc;ndio</li>
-                                    <li>Controle de Acesso</li>
-                                    <li>Circuito Fechado de TV (CFTV)</li>
-                                    <li>Integra&ccedil;&atilde;o</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-             <?php endif; ?>
-
-             <?php if($service == 'batch'): ?>
-            
-                <div class="service">
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="row">
-                                <div class="icon-wrap ico-bg round">
-                                    <i class="icon-tasks"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Gerenciamento e Controle de Batch ISA-88</h3>
-                                <p>Os Sistemas de gerenciamento e controle Batch ISA-88 tem como principal objetivo a padroniza&ccedil;&atilde;o no desenvolvimento de solu&ccedil;&otilde;es para processos de produ&ccedil;&atilde;o por batelada, al&eacute;m proporcionar maior efici&ecirc;ncia, flexibilidade, variedade e qualidade dos produtos, esses sistemas registram e fornecem relat&oacute;rios das bateladas produzidas. </p>
-                                <p>A iFocus integras as melhores solu&ccedil;&otilde;es do mercado e fornece consultoria nas &aacute;reas:</p>
-                                <ul>
-                                    <li>Defini&ccedil;&atilde;o de Processo (Modelamento)</li>
-                                    <li>Defini&ccedil;&atilde;o de Units, Equipments e Phases</li>
-                                    <li>Cria&ccedil;&atilde;o de Especifica&ccedil;&atilde;o Funcional do Processo</li>
-                                    <li>Gerenciamento de Receitas de Produ&ccedil;&atilde;o</li>
-                                    <li>Parametriza&ccedil;&atilde;o de Produ&ccedil;&atilde;o</li>
-                                    <li>Flexibilidade</li>
-                                    <li>Controle de Lotes</li>
-                                    <li>Relat&oacute;rios de Produ&ccedil;&atilde;o</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-             <?php endif; ?>
-             
-             <?php if($service == 'mes'): ?>
-            
-                <div class="service">
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="row">
-                                <div class="icon-wrap ico-bg round">
-                                    <i class="icon-bar-chart"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Sistema de Execu&ccedil;&atilde;o de Manufatura (MES)</h3>
-                                <p>Sistemas MES possuem grande capacidade de coleta de dados produtivos de processos, m&aacute;quinas e equipamentos.  </p>
-                                <p>S&atilde;o ferramentas poderosas que exibem as informa&ccedil;&otilde;es do ch&atilde;o de f&aacute;brica em tempo real, atrav&eacute;s de relat&oacute;rios gerenciais confi&aacute;veis, que s&atilde;o a base para a tomada de decis&atilde;o em um ambiente industrial. </p>
-                                <p>A iFocus fornece solu&ccedil;&otilde;es completas que abrangem:</p>
-                                <ul>
-                                    <li>Coleta de Dados de ch&atilde;o de f&aacute;brica</li>
-                                    <li>Mapeamento de Perdas</li>
-                                    <li>Mapeamento de Paradas</li>
-                                    <li>An&aacute;lise de Qualidade, Perdas, Paradas</li>
-                                    <li>C&aacute;lculo de Efici&ecirc;ncia dos Equipamentos (OEE)</li>
-                                    <li>Indicador Chave de Desempenho (KPI)</li>
-                                    <li>Relat&oacute;rios (Hist&oacute;rico, Produ&ccedil;&atilde;o, OEE e KPI)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-             <?php endif; ?>
-             
-                </div>
-            </div>
-        </div>
 <!--
     <div class="container">
         <div class="row">
