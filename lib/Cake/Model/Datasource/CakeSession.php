@@ -509,7 +509,7 @@ class CakeSession {
 			$sessionConfig['ini']['session.cookie_httponly'] = 1;
 		}
 
-		if (empty($_SESSION)) {
+		if (empty($_SESSION) && PHP_SAPI !== 'cli') {
 			if (!empty($sessionConfig['ini']) && is_array($sessionConfig['ini'])) {
 				foreach ($sessionConfig['ini'] as $setting => $value) {
 					if (ini_set($setting, $value) === false) {

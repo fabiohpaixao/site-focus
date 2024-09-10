@@ -125,7 +125,9 @@ abstract class ObjectCollection {
 		}
 		$result = null;
 		foreach ($list as $name) {
+			//debug(compact('subject'));
 			$result = call_user_func_array(array($this->_loaded[$name], $callback), array_values(array_filter(compact('subject')) + $params));
+			// $result = call_user_func_array(array($this->_loaded[$name], $callback), array_values($subject + $params));
 			if ($options['collectReturn'] === true) {
 				$collected[] = $result;
 			}
